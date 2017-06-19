@@ -1,0 +1,26 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_mcg_production_win_top"
+		textureFile = "gfx//interface//mcg_production_win_top.dds"
+	}
+	spriteType = {
+		name = "GFX_mcg_header_bg"
+		textureFile = "gfx//interface//mcg_header_bg.dds"
+	}	
+	spriteType = {
+		name = "GFX_mcg_production_item"
+		textureFile = "gfx//interface//mcg_production_item.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_mcg_prod_line_glow"
+		textureFile = "gfx//interface//mcg_prod_line_glow.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		allwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+}
